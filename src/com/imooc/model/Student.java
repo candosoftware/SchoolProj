@@ -6,7 +6,7 @@ public class Student {
 	 private String studentName;
 	 private String studentSex;
 	 private int studentAge;
-	 private Subject studentSubject;
+	 private Subject studentSubject;  //专业的对象作为学生的一个属性
 	 //无参数的构造
 	 public Student(){
 		 
