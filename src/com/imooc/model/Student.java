@@ -2,8 +2,8 @@ package com.imooc.model;
 
 public class Student {
 	  //属性有 学号、姓名、性别、年龄
-	 private String studentNo;
-	 private String studentName;
+	 private String studentNo; //定义一个私有属性学号
+	 private String studentName;//定义一个私有属性学生姓名
 	 private String studentSex;
 	 private int studentAge;
 	 private Subject studentSubject;  //专业的对象作为学生的一个属性
