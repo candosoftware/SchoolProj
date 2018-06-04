@@ -15,8 +15,12 @@ public class SchoolTest {
 		 System.out.println("==================================================");
 		 Student stu3 = new Student("S0003","张四","男",33);
 		 System.out.println(stu3.introduction(sub1));
-		 
-				 
+		 System.out.println("==================================================");
+		 //测试指定专业中有几个学生
+		 sub1.addStudent(stu1);
+		 sub1.addStudent(stu2);
+		 sub1.addStudent(stu3);
+		 System.out.print(sub1.getSubjectName()+"专业,共有 "+sub1.getStudentNum()+" 个学生报读");			 
 	}
 
 	}
